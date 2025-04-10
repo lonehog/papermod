@@ -1,4 +1,4 @@
-baseURL = 'https://USERNAME.github.io/papermod/'
+baseURL = 'https://lonehog.github.io/papermod/'
 languageCode = 'en-us'
 title = 'My PaperMod Site'
 theme = 'PaperMod'
