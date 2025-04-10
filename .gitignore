@@ -1,0 +1,19 @@
+# Generated files by hugo
+public/
+resources/_gen/
+.hugo_build.lock
+
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo 

@@ -1,0 +1,38 @@
+baseURL = 'https://USERNAME.github.io/papermod/'
+languageCode = 'en-us'
+title = 'My PaperMod Site'
+theme = 'PaperMod'
+
+# Enable search
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[params]
+  # Default theme appearance - auto, light, dark
+  defaultTheme = "auto"
+  # Show summary on homepage
+  showSummary = true
+  # Show Read More button for post summaries
+  showtoc = true
+  # Show word count and read time
+  ShowReadingTime = true
+  # Show post sharing buttons
+  ShowShareButtons = true
+  # Show breadcrumbs for better navigation
+  ShowBreadCrumbs = true
+  # Show post navigation (previous/next post)
+  ShowPostNavLinks = true
+  
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 20
